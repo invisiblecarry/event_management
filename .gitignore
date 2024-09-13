@@ -1,0 +1,48 @@
+# Django
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+db.sqlite3
+/media
+/staticfiles
+
+# Environment
+.env
+.venv/
+venv/
+ENV/
+env/
+.envrc
+
+# IDEs and Editors
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# System Files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Python
+*.egg
+*.egg-info
+dist/
+build/
+
+# Test coverage
+.tox/
+.nox/
+.coverage
+.coverage.*
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# Pytest
+.pytest_cache/
